@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     // TODO (7) Set the title to the search string ("Search") from strings.xml
     // Do 2 - 7 in menu.xml ///////////////////////////////////////////////////////////////////////
 
+    // create options menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+
     }
 
 }

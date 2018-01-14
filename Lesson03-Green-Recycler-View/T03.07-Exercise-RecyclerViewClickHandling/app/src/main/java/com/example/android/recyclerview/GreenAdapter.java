@@ -221,6 +221,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
         @Override
         public void onClick(View v) {
             int clickedPosition = getAdapterPosition();
+            //The nested class can access to the variable of the outer class
             mOnClickListener.onListItemClick(clickedPosition);
         }
     }

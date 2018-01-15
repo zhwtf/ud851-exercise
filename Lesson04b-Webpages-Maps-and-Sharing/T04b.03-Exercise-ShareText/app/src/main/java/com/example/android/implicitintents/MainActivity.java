@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
          */
         Intent intent = new Intent(Intent.ACTION_VIEW);
 
+
         /*
          * Using setData to set the Uri of this Intent has the exact same affect as passing it in
          * the Intent's constructor. This is simply an alternate way of doing this.
